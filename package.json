@@ -1,0 +1,32 @@
+{
+  "name": "decentralized-storage-pinata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.ts --network kaia",
+    "test:deploy": "npx hardhat test test/deploy.test.ts",
+    "test:ethers": "npx hardhat test test/ethers.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insu-Lee/decentralized-storage-pinata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insu-Lee/decentralized-storage-pinata/issues"
+  },
+  "homepage": "https://github.com/Insu-Lee/decentralized-storage-pinata#readme",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19",
+    "prettier": "^3.5.2",
+    "prettier-plugin-solidity": "^1.4.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7"
+  }
+}
