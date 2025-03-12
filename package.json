@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts --network kaia",
-    "test:deploy": "npx hardhat test test/deploy.test.ts",
-    "test:ethers": "npx hardhat test test/ethers.test.ts"
+    "upload": "ts-node pinata/apis/upload.metadata.ts"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.2.0",
     "axios": "^1.8.2",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.2",
+    "ts-node": "^10.9.2"
   }
 }
