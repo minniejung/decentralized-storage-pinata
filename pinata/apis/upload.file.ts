@@ -22,6 +22,7 @@ export const uploadFileToIPFS = async () => {
     }
   );
 
+  console.log('이미지를 IPFS에 업로드합니다');
   console.log(
     'Image :',
     `https://jade-biological-gamefowl-447.mypinata.cloud/ipfs/${response.data.data.cid}`

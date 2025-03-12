@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts --network kaia",
-    "upload": "ts-node pinata/apis/upload.metadata.ts"
+    "mint": "ts-node web3/ethers.ts"
   },
   "repository": {
     "type": "git",
