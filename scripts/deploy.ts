@@ -3,8 +3,8 @@ import { makeAbi } from './abiGenerator';
 
 async function main() {
   const contractName = 'MyNFT';
-  const name = ''; // Todo: NFT의 이름
-  const symbol = ''; // Todo: NFT의 Symbol
+  const name = 'Scoby The Cat'; // Todo: NFT의 이름
+  const symbol = 'SCOB'; // Todo: NFT의 Symbol
 
   if (!name || !symbol) {
     throw new Error('Todo: (scripts/deploy.ts) name or symbol is empty');

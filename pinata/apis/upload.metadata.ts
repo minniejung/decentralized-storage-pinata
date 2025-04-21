@@ -8,8 +8,8 @@ export const uploadMetaData = async () => {
   const imageUrl = await uploadFileToIPFS();
 
   const metadata = {
-    name: '', // Todo: 원하는 이름을 넣습니다.
-    description: '', // Todo: 원하는 이름을 넣습니다.
+    name: 'scoby', // Todo: 원하는 이름을 넣습니다.
+    description: 'The cutest cat in the world', // Todo: 원하는 이름을 넣습니다.
     image: imageUrl,
     attributes: [
       // attributes는 어떤 속성(trait_type)에 값(value)을 넣을 것인지 자신의 프로젝트에 따라서 재량것 지정합니다.
