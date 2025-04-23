@@ -17,7 +17,7 @@ contract MyNFT is ERC721, ERC721Enumerable, Ownable, ERC721URIStorage {
     function mint(
         address recipient,
         string memory _tokenURI
-    ) public onlyOwner returns (uint256) {
+    ) public returns (uint256) {
         unchecked {
             ++_tokenIds;
         }

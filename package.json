@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Insu-Lee/decentralized-storage-pinata#readme",
   "description": "",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.19",
     "prettier": "^3.5.2",
     "prettier-plugin-solidity": "^1.4.2"
